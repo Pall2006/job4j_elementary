@@ -2,12 +2,15 @@ package ru.job4j.calculator;
 
 public class Calculator {
 
-    public static void main(String[] args) {
-        int size = 10;
-        size = 100;
-        size -= 5;
+    public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
+    }
 
-        System.out.println(size);
+    public static void main(String[] args) {
+       Calculator.plus(500, 100);
+       Calculator.plus(4, 2);
+       Calculator.plus(3, 3);
     }
 }
 
