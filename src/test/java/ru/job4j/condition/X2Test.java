@@ -3,7 +3,6 @@ package ru.job4j.condition;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class X2Test {
 
@@ -20,7 +19,6 @@ class X2Test {
 
     @Test
     void whenA1B1C1X1Then3() {
-        /* ¬ходные параметра. »х будет 4 дл€ данного случа€*/
         int a = 1;
         int b = 1;
         int c = 1;
@@ -32,7 +30,6 @@ class X2Test {
 
     @Test
     void whenA0B1C1X1Then2() {
-        /* ¬ходные параметра. »х будет 4 дл€ данного случа€*/
         int a = 0;
         int b = 1;
         int c = 1;
@@ -44,7 +41,6 @@ class X2Test {
 
     @Test
     void whenA1B1C0X1Then2() {
-        /* ¬ходные параметра. »х будет 4 дл€ данного случа€*/
         int a = 1;
         int b = 1;
         int c = 0;
@@ -56,7 +52,6 @@ class X2Test {
 
     @Test
     void whenA1B1C1X0Then1() {
-        /* ¬ходные параметра. »х будет 4 дл€ данного случа€*/
         int a = 1;
         int b = 1;
         int c = 1;
