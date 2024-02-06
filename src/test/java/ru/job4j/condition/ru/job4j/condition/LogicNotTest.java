@@ -1,6 +1,7 @@
 package ru.job4j.condition.ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.condition.LogicNot;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
