@@ -1,6 +1,8 @@
 package ru.job4j.condition.ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.condition.Max;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MaxTest {
