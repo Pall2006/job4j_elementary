@@ -17,7 +17,7 @@ class ThreeMaxTest {
     }
 
     @Test
-    void secondMax() {
+    void secondMax()  {
         int first = 10;
         int second = 50;
         int third = 1;
