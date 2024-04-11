@@ -4,13 +4,8 @@ public class SwitchArray {
 
     public static int[] swap(int[] array, int source, int destination) {
         int temp1 = array[source];
-        for (int i = 0; i < array.length; i++) {
-            if (i == source) {
-                array[i] = array[destination];
-            } else if (i == destination) {
-                array[i] = temp1;
-            }
-        }
+        array[source] = array[destination];
+        array[destination] = temp1;
         return array;
     }
 
