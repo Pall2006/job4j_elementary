@@ -1,7 +1,15 @@
 package ru.job4j;
 
 public class Main {
+    public static void calc(int value) {
+        if (value != 0 && value / 0 >= 0) {
+            System.out.println("div by zero");
+        } else {
+            System.out.println("zero by zero");
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        calc(0);
     }
 }
