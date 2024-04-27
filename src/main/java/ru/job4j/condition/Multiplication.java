@@ -1,6 +1,6 @@
 package ru.job4j.condition;
 
-public class X2 {
+public class Multiplication {
     public static int calc(int a, int b, int c, int x) {
         return a * x * x + b * x + c;
     }
@@ -26,11 +26,11 @@ public class X2 {
         int b4 = 1;
         int c4 = 1;
         int x4 = 0;
-        int result = X2.calc(a, b, c, x);
-        int result1 = X2.calc(a1, b1, c1, x1);
-        int result2 = X2.calc(a2, b2, c2, x2);
-        int result3 = X2.calc(a3, b3, c3, x3);
-        int result4 = X2.calc(a4, b4, c4, x4);
+        int result = Multiplication.calc(a, b, c, x);
+        int result1 = Multiplication.calc(a1, b1, c1, x1);
+        int result2 = Multiplication.calc(a2, b2, c2, x2);
+        int result3 = Multiplication.calc(a3, b3, c3, x3);
+        int result4 = Multiplication.calc(a4, b4, c4, x4);
         System.out.println(result);
         System.out.println(result1);
         System.out.println(result2);
