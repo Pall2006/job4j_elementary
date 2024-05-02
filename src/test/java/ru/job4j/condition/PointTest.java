@@ -33,4 +33,13 @@ class PointTest {
         double output = a.distance(b);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when2and10to4and8to2and2then8dot95() {
+        double expected = 8.95;
+        Point a = new Point(2, 4, 2);
+        Point b = new Point(10, 8, 2);
+        double output = a.distance3d(b);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
+    }
 }
